@@ -9,8 +9,3 @@ url: "http://dev.jontodd.com"
 markdown: kramdown
 permalink: pretty
 
-analytics:
-  provider: google
-  google:
-    tracking_id: UA-51485030-1
-
