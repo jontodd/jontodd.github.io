@@ -14,7 +14,7 @@ have them setup already, name them something descriptive so you can tell them ap
 to refer to "workuser" and "personaluser" as the two github usernames, replace them with your actual usernames
 or something else meaningful.
 
-~~~ bash
+~~~bash
 ~/.ssh/github.com-workuser-id_rsa
 ~/.ssh/github.com-personaluser-id_rsa
 ~~~
@@ -49,7 +49,7 @@ the hostname to "personaluser.github.com"
 
 If you have existing checked out repos for your personal account you'll need to modify the config for that repo
 
-~~~
+~~~bash
 cd path/to/my-repo
 vim .git/config
 ~~~
@@ -71,20 +71,20 @@ configuration of your work account in your ~/.ssh/config.
 
 Clear your ssh context
 
-~~~
+~~~bash
 ssh-add -D
 ~~~
 
 Test personal account
 
-~~~ bash
+~~~bash
 $ ssh -T git@personaluser.github.com                                                
 Hi personaluser! You've successfully authenticated, but GitHub does not provide shell access.
 ~~~
 
 Test work account
 
-~~~ bash
+~~~bash
 $ ssh -T git@github.com                                                
 Hi workuser! You've successfully authenticated, but GitHub does not provide shell access.
 ~~~

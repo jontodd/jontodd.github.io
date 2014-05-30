@@ -3,7 +3,7 @@ title: Jon Todd
 email: jonrtodd@gmail.com
 description: "This is my tech blog containing random thoughts and code snippets" 
 baseurl: ""
-url: "http://jontodd.github.io"
+url: "http://dev.jontodd.com"
 
 # Build settings
 markdown: kramdown
