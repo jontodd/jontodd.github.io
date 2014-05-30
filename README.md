@@ -8,7 +8,7 @@ Run blog locally
 # Start server in background watching _site for chages
 jekyll serve --watch --detach 
 open http://127.0.0.1:4000
-killall jekyll
+kill -9 $(pgrep jekyll) 
 ~~~
 
 Deploy
